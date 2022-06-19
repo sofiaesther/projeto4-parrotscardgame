@@ -1,0 +1,60 @@
+body{
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef9bf;
+}
+
+.top{
+    color:#75b79e;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-left: auto;
+}
+
+.game{
+    margin: 30px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #a7e9af;
+    width: 117px;
+    height: 146px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    transition: transform 1s;
+   
+  }
+.card img{
+    width: 110px;
+}
+
+.hidden{
+    display: none;
+}
+  
+.virada{
+    transform: rotateY(180deg);
+}
+
+.frente {
+    background-color: crimson;
+    width: 117px;
+    height: 146px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    transition: transform 1s;
+  }
